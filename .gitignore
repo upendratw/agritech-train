@@ -1,0 +1,21 @@
+cat <<EOF > .gitignore
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# YOLO / training outputs
+runs/
+checkpoints/
+*.pt
+*.onnx
+*.engine
+
+# Data
+data/
+datasets/
+Downloads/
+
+# OS
+.DS_Store
+EOF

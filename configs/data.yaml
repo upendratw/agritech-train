@@ -1,0 +1,13 @@
+train: /Users/upendra/Downloads/pest_detection.v2-latest.yolov8/train/images
+val: /Users/upendra/Downloads/pest_detection.v2-latest.yolov8/val/images
+test: /Users/upendra/Downloads/pest_detection.v2-latest.yolov8/test/images
+
+nc: 1
+names: ['button']
+
+roboflow:
+  workspace: upendratw
+  project: pest_detection-5mzbl
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/upendratw/pest_detection-5mzbl/dataset/2
