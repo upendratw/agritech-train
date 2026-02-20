@@ -7,7 +7,6 @@ __pycache__/
 # YOLO / training outputs
 runs/
 checkpoints/
-*.pt
 *.onnx
 *.engine
 

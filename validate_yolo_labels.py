@@ -1,8 +1,8 @@
 from pathlib import Path
 from PIL import Image
 
-IMG_DIR = Path("/Users/upendra/Downloads/Jowar.v1i.yolov8/train/images")
-LBL_DIR = Path("/Users/upendra/Downloads/Jowar.v1i.yolov8/train/labels")
+IMG_DIR = Path("/Users/upendra/Downloads/uraddalV1-dataset/train/images")
+LBL_DIR = Path("/Users/upendra/Downloads/uraddalV1-dataset/train/labels")
 
 bad = []
 
